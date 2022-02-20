@@ -144,5 +144,4 @@ func main() {
 	for _, b := range books {
 		fmt.Println("The book with id of: ", b.Book_id, " is: ", b.Name, " by ", b.Author, " published on ", b.Publication_date, " isbn: ", b.ISBN, " and has the following description: ", b.Description, "\n")
 	}
-
 }
